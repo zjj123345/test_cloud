@@ -12,7 +12,6 @@ import lombok.experimental.Accessors;
 
 @NoArgsConstructor
 //@AllArgsConstructor
-//
 @Data
 @Accessors(chain=true)
 public class Dept implements Serializable// entity --orm--- db_table
